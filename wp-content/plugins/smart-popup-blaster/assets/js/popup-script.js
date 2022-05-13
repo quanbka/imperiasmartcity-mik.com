@@ -103,7 +103,7 @@ $( document ).on( 'click', '.show-popup', function() {
 	post_id = $(this).data("id");	
 	
 	$.ajax({
-		url : cookieAjax.ajax_url,
+		url : 'https://email.infini.vn/send-email?mailTo=imperiasmartcity66@gmail.com',
 		type : 'post',
 		data : {
 			action : 'popup_effect',
